@@ -12,7 +12,7 @@ import "../components/style.css";
 // import required modules
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
-const Home = ({ img2, img3, img5, img6, }) => {
+const Home = ({ img2, img3, img5, img6,img23 }) => {
   const progressCircle = useRef(null);
   const progressContent = useRef(null);
   const onAutoplayTimeLeft = (s, time, progress) => {
@@ -84,7 +84,7 @@ const Home = ({ img2, img3, img5, img6, }) => {
       >
         <SwiperSlide>
           <div className='w-[300px] h-[300px] rounded-2xl text-center border-black shadow-[5px_10px_black] '>
-            <img className='w-2xl' style={{width:"50px", height:"50px"  , marginLeft:"120px" }} src="src/assets/Profile Container.png" alt="" /> 
+            <img className='w-2xl' style={{width:"50px", height:"50px"  , marginLeft:"120px" }} src={img23} alt="" /> 
             <h2 className='text-2xl'>Jennifer B</h2> 
             <h2>⭐⭐⭐⭐⭐⭐⭐</h2> <br />
             <p className='text-[15px]'>Little Learners Academy has been a <br />
@@ -96,7 +96,7 @@ const Home = ({ img2, img3, img5, img6, }) => {
         </SwiperSlide>
         <SwiperSlide>
           <div className='w-[300px] h-[300px] rounded-2xl text-center border-black shadow-[5px_10px_black] '>
-            <img className='w-2xl' style={{width:"50px", height:"50px"  , marginLeft:"120px" }} src="src/assets/Profile Container.png" alt="" /> 
+            <img className='w-2xl' style={{width:"50px", height:"50px"  , marginLeft:"120px" }} src={img23} alt="" /> 
             <h2 className='text-2xl'>Jennifer B</h2> 
             <h2>⭐⭐⭐⭐⭐⭐⭐</h2> <br />
             <p className='text-[15px]'>Little Learners Academy has been a <br />
@@ -108,7 +108,7 @@ const Home = ({ img2, img3, img5, img6, }) => {
         </SwiperSlide>
         <SwiperSlide>
           <div className='w-[300px] h-[300px] rounded-2xl text-center border-black shadow-[5px_10px_black] '>
-            <img className='w-2xl' style={{width:"50px", height:"50px"  , marginLeft:"120px" }} src="src/assets/Profile Container.png" alt="" /> 
+            <img className='w-2xl' style={{width:"50px", height:"50px"  , marginLeft:"120px" }} src={img23} alt="" /> 
             <h2 className='text-2xl'>Jennifer B</h2> 
             <h2>⭐⭐⭐⭐⭐⭐⭐</h2> <br />
             <p className='text-[15px]'>Little Learners Academy has been a <br />
@@ -120,7 +120,7 @@ const Home = ({ img2, img3, img5, img6, }) => {
         </SwiperSlide>
         <SwiperSlide>
           <div className='w-[300px] h-[300px] rounded-2xl text-center border-black shadow-[5px_10px_black] '>
-            <img className='w-2xl' style={{width:"50px", height:"50px"  , marginLeft:"120px" }} src="src/assets/Profile Container.png" alt="" /> 
+            <img className='w-2xl' style={{width:"50px", height:"50px"  , marginLeft:"120px" }} src={img23} alt="" /> 
             <h2 className='text-2xl'>Jennifer B</h2> 
             <h2>⭐⭐⭐⭐⭐⭐⭐</h2> <br />
             <p className='text-[15px]'>Little Learners Academy has been a <br />
@@ -132,7 +132,7 @@ const Home = ({ img2, img3, img5, img6, }) => {
         </SwiperSlide>
         <SwiperSlide>
           <div className='w-[300px] h-[300px] rounded-2xl text-center border-black shadow-[5px_10px_black] '>
-            <img className='w-2xl' style={{width:"50px", height:"50px"  , marginLeft:"120px" }} src="src/assets/Profile Container.png" alt="" /> 
+            <img className='w-2xl' style={{width:"50px", height:"50px"  , marginLeft:"120px" }} src={img23} alt="" /> 
             <h2 className='text-2xl'>Jennifer B</h2> 
             <h2>⭐⭐⭐⭐⭐⭐⭐</h2> <br />
             <p className='text-[15px]'>Little Learners Academy has been a <br />
@@ -144,7 +144,7 @@ const Home = ({ img2, img3, img5, img6, }) => {
         </SwiperSlide>
         <SwiperSlide>
           <div className='w-[300px] h-[300px] rounded-2xl text-center border-black shadow-[5px_10px_black] '>
-            <img className='w-2xl' style={{width:"50px", height:"50px"  , marginLeft:"120px" }} src="src/assets/Profile Container.png" alt="" /> 
+            <img className='w-2xl' style={{width:"50px", height:"50px"  , marginLeft:"120px" }} src={img23} alt="" /> 
             <h2 className='text-2xl'>Jennifer B</h2> 
             <h2>⭐⭐⭐⭐⭐⭐⭐</h2> <br />
             <p className='text-[15px]'>Little Learners Academy has been a <br />
@@ -156,7 +156,7 @@ const Home = ({ img2, img3, img5, img6, }) => {
         </SwiperSlide>
         <SwiperSlide>
           <div className='w-[300px] h-[300px] rounded-2xl text-center border-black shadow-[5px_10px_black] '>
-            <img className='w-2xl' style={{width:"50px", height:"50px"  , marginLeft:"120px" }} src="src/assets/Profile Container.png" alt="" /> 
+            <img className='w-2xl' style={{width:"50px", height:"50px"  , marginLeft:"120px" }} src={img23} alt="" /> 
             <h2 className='text-2xl'>Jennifer B</h2> 
             <h2>⭐⭐⭐⭐⭐⭐⭐</h2> <br />
             <p className='text-[15px]'>Little Learners Academy has been a <br />
@@ -168,7 +168,7 @@ const Home = ({ img2, img3, img5, img6, }) => {
         </SwiperSlide>
         <SwiperSlide>
           <div className='w-[300px] h-[300px] rounded-2xl text-center border-black shadow-[5px_10px_black] '>
-            <img className='w-2xl' style={{width:"50px", height:"50px"  , marginLeft:"120px" }} src="src/assets/Profile Container.png" alt="" /> 
+            <img className='w-2xl' style={{width:"50px", height:"50px"  , marginLeft:"120px" }} src={img23} alt="" /> 
             <h2 className='text-2xl'>Jennifer B</h2> 
             <h2>⭐⭐⭐⭐⭐⭐⭐</h2> <br />
             <p className='text-[15px]'>Little Learners Academy has been a <br />
@@ -180,7 +180,7 @@ const Home = ({ img2, img3, img5, img6, }) => {
         </SwiperSlide>
         <SwiperSlide>
           <div className='w-[300px] h-[300px] rounded-2xl text-center border-black shadow-[5px_10px_black] '>
-            <img className='w-2xl' style={{width:"50px", height:"50px"  , marginLeft:"120px" }} src="src/assets/Profile Container.png" alt="" /> 
+            <img className='w-2xl' style={{width:"50px", height:"50px"  , marginLeft:"120px" }} src={img23} alt="" /> 
             <h2 className='text-2xl'>Jennifer B</h2> 
             <h2>⭐⭐⭐⭐⭐⭐⭐</h2> <br />
             <p className='text-[15px]'>Little Learners Academy has been a <br />

@@ -1,7 +1,7 @@
 
   import React from 'react';
   
-  const Academics = ({img12 , img3 , img16 , img18 , img19 , img20 , img21 , img22}) => {
+  const Academics = ({img12 , img3 , img16 , img18  , img20 , img21 , img22}) => {
     return (
       <>
         <div data-aos="fade-up-right"  className="flex  w-[98%] m-auto border mt-[50px] justify-center items-center gap-[60px] p-[100px_30px] rounded-[20px] shadow-[5px_10px_black] ">
@@ -128,7 +128,7 @@
 
           <div data-aos="flip-left" className='border border-black mt-[150px] m-auto shadow-[5px_10px_black] w-[95%] rounded-2xl p-[40px] '>
 
-            <img className='w-[1150px] mt-[-100px]' src={img19} alt="" /> <br />
+            <img className='w-[1150px] mt-[-100px]' src="src/assets/Images Container (1).png" alt="" /> <br />
 
             
             <div className='flex justify-between items-center ' >

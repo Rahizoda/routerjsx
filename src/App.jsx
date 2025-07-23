@@ -19,7 +19,6 @@ import img10 from "./assets/Icon (5).png";
 import img11 from "./assets/Icon (6).png";
 import img12 from "./assets/Abstract Design.png";
 import img13 from "./assets/Sub Container (2).png";
-import MySwiper from "./components/Academics";
 import img14 from "./assets/Sub Containerr (1).png";
 import img15 from "./assets/Sub Container (4).png";
 import Academics from "./components/Academics";
@@ -31,7 +30,7 @@ import img19 from "./assets/Images Container (1).png"
 import img20 from "./assets/Images Container (2).png"
 import img21 from "./assets/Images Container (3).png"
 import img22 from "./assets/Images Container (4).png"
-
+import img23 from "./assets/Profile Container.png"
 // import img1 from './assets/img1.png'
 
 const App = () => {
@@ -55,7 +54,7 @@ const App = () => {
         {
           index: true,
           element: (
-            <Home img2={img2} img3={img3} img4={img4} img5={img5} img6={img6} />
+            <Home img2={img2} img3={img3} img4={img4} img5={img5} img6={img6} img22={img23} />
           ),
         },
         {
