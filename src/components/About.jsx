@@ -1,5 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
+import { Link, Outlet } from "react-router-dom";
 
 const About = ({ img12, img13, img14, img15 , img9 }) => {
   
@@ -149,7 +150,8 @@ const About = ({ img12, img13, img14, img15 , img9 }) => {
           {
             data.map((el) => {
               return (
-                <div data-aos="fade-left"
+                <Link to={`/user/${el.id}`} >
+                   <div data-aos="fade-left"
                 data-aos-anchor="#example-anchor"
                 data-aos-offset="500"
                 data-aos-duration="500"
@@ -173,12 +175,14 @@ const About = ({ img12, img13, img14, img15 , img9 }) => {
                     a creative and interactive teaching style to his classroom. His <br />
                     enthusiasm for learning inspires students to ask questions and think critically.</p>
                   </div>
-              </div>
+                 </div>
+                </Link>
              )
             })
           }
 
         </div>
+          <Outlet/>  
       </div>
     </>
   );

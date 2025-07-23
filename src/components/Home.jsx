@@ -2,6 +2,23 @@ import React, { useRef } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
+// Import Swiper React components
+
+import 'swiper/css';
+import 'swiper/css/grid';
+import 'swiper/css/pagination';
+
+import "./style.css";
+
+// import required modules
+import { Grid } from 'swiper/modules';
+
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+
+import "./style.css";
+
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -12,7 +29,7 @@ import "../components/style.css";
 // import required modules
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
-const Home = ({ img2, img3, img5, img6,img23 }) => {
+const Home = ({ img2, img5, img6,img23 , img24 }) => {
   const progressCircle = useRef(null);
   const progressContent = useRef(null);
   const onAutoplayTimeLeft = (s, time, progress) => {
@@ -21,7 +38,7 @@ const Home = ({ img2, img3, img5, img6,img23 }) => {
   };
   return (
     <>
-    <div className='flex justify-around items-center p-[100px_0px] '>
+    <div  data-aos="zoom-in" className='flex justify-around items-center p-[100px_0px] '>
       <img className='w-[500px] ' src={img2} alt="" />
       <div>
         <h2>Welcome to Little Learners Academy</h2> <br />
@@ -50,13 +67,56 @@ const Home = ({ img2, img3, img5, img6,img23 }) => {
       </div>
       </div>
       
-      <div  className='text-center'>
+      <div  data-aos="zoom-in" className='text-center'>
         <button className='border p-[10px_20px] rounded-[10px] shadow-[0px_0px_10px_gray]'>Children Deserve Bright Future</button> <br /> <br />
         <h1 className='text-[40px]'>Our Benefits</h1> <br />
         <p>With a dedicated team of experienced educators, state-of-the-art facilities, and a comprehensive curriculum, <br />
           we aim to lay a strong foundation for your child's future.</p> <br /><br /><br />
         
-        <img className='w-[1000px] m-auto' src={img3} alt="" />
+        <div className='text-start'>
+
+          
+          <div className='grid grid-cols-3 grid-rows-2 gap-[40px] '>
+            
+          <div className=' border border-black rounded-2xl w-[400px] h-[300px] shadow-[5px_10px_black] p-[20px] '>
+            <img className='mt-[-50px]   ' src={img24} alt="" /> <br /><br />
+            <h2 className='text-2xl'>Holistic Learning Approach</h2> <br />
+            <p>Our curriculum focuses on nurturing  <br />cognitive, social, emotional, and physical <br /> development, ensuring a well-rounded <br /> education.</p>
+
+            </div>
+            
+             <div className=' border border-black rounded-2xl w-[400px] h-[300px] shadow-[5px_10px_black] p-[20px] '>
+            <img className='mt-[-50px]   ' src={img24} alt="" /> <br /><br />
+            <h2 className='text-2xl'>Holistic Learning Approach</h2> <br />
+            <p>Our curriculum focuses on nurturing  <br />cognitive, social, emotional, and physical <br /> development, ensuring a well-rounded <br /> education.</p>
+
+              </div> <div className=' border border-black rounded-2xl w-[400px] h-[300px] shadow-[5px_10px_black] p-[20px] '>
+            <img className='mt-[-50px]   ' src={img24} alt="" /> <br /><br />
+            <h2 className='text-2xl'>Holistic Learning Approach</h2> <br />
+            <p>Our curriculum focuses on nurturing  <br />cognitive, social, emotional, and physical <br /> development, ensuring a well-rounded <br /> education.</p>
+
+              </div> <div className=' border border-black rounded-2xl w-[400px] h-[300px] shadow-[5px_10px_black] p-[20px] '>
+            <img className='mt-[-50px]   ' src={img24} alt="" /> <br /><br />
+            <h2 className='text-2xl'>Holistic Learning Approach</h2> <br />
+            <p>Our curriculum focuses on nurturing  <br />cognitive, social, emotional, and physical <br /> development, ensuring a well-rounded <br /> education.</p>
+
+              </div> <div className=' border border-black rounded-2xl w-[400px] h-[300px] shadow-[5px_10px_black] p-[20px] '>
+            <img className='mt-[-50px]   ' src={img24} alt="" /> <br /><br />
+            <h2 className='text-2xl'>Holistic Learning Approach</h2> <br />
+            <p>Our curriculum focuses on nurturing  <br />cognitive, social, emotional, and physical <br /> development, ensuring a well-rounded <br /> education.</p>
+
+              </div> <div className=' border border-black rounded-2xl w-[400px] h-[300px] shadow-[5px_10px_black] p-[20px] '>
+            <img className='mt-[-50px]   ' src={img24} alt="" /> <br /><br />
+            <h2 className='text-2xl'>Holistic Learning Approach</h2> <br />
+            <p>Our curriculum focuses on nurturing  <br />cognitive, social, emotional, and physical <br /> development, ensuring a well-rounded <br /> education.</p>
+
+              </div>
+          </div>
+
+
+        
+
+        </div>
       </div>
 
       <div className='text-center p-[150px_0px] '>

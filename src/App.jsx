@@ -31,8 +31,8 @@ import img20 from "./assets/Images Container (2).png"
 import img21 from "./assets/Images Container (3).png"
 import img22 from "./assets/Images Container (4).png"
 import img23 from "./assets/Profile Container.png"
-// import img1 from './assets/img1.png'
-
+import img24 from "./assets/Icon Container.png"
+import User from "./components/User";
 const App = () => {
   useEffect(() => {
     initAOS();
@@ -54,7 +54,7 @@ const App = () => {
         {
           index: true,
           element: (
-            <Home img2={img2} img3={img3} img4={img4} img5={img5} img6={img6} img22={img23} />
+            <Home img2={img2} img3={img3} img4={img4} img5={img5} img6={img6} img23={img23} img24={img24} />
           ),
         },
         {
@@ -81,6 +81,11 @@ const App = () => {
           path: "studentlife",
           element: <StudentLife img17={img17} img3={img3} img12={img12} />,
         },
+        {
+          path: "user/:id",
+          element: <User/>
+        },
+
       ],
     },
   ]);
