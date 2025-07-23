@@ -26,6 +26,11 @@ import Academics from "./components/Academics";
 import img16 from "./assets/Image (5).png";
 import { initAOS } from "./config/aos";
 import img17 from "./assets/Image (7).png"
+import img18 from "./assets/Images Container.png"
+import img19 from "./assets/Images Container (1).png"
+import img20 from "./assets/Images Container (2).png"
+import img21 from "./assets/Images Container (3).png"
+import img22 from "./assets/Images Container (4).png"
 
 // import img1 from './assets/img1.png'
 
@@ -67,7 +72,7 @@ const App = () => {
         },
         {
           path: "academics",
-          element: <Academics img12={img12} img3={img3} img16={img16} />,
+          element: <Academics img12={img12} img3={img3} img16={img16} img18={img18} img={img19} img20={img20} img21={img21} img22={img22} />,
         },
         {
           path: "admissions",

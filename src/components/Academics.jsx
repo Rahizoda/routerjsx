@@ -1,7 +1,7 @@
 
   import React from 'react';
   
-  const Academics = ({img12 , img3 , img16}) => {
+  const Academics = ({img12 , img3 , img16 , img18 , img19 , img20 , img21 , img22}) => {
     return (
       <>
         <div data-aos="fade-up-right"  className="flex  w-[98%] m-auto border mt-[50px] justify-center items-center gap-[60px] p-[100px_30px] rounded-[20px] shadow-[5px_10px_black] ">
@@ -110,7 +110,7 @@
 
           <div className='border border-black mt-[150px] m-auto shadow-[5px_10px_black] w-[95%] rounded-2xl p-[40px] '>
 
-            <img className='w-[1150px] mt-[-100px]' src="src/assets/Images Container.png" alt="" /> <br />
+            <img className='w-[1150px] mt-[-100px]' src={img18} alt="" /> <br />
 
             
             <div className='flex justify-between items-center ' >
@@ -128,7 +128,7 @@
 
           <div data-aos="flip-left" className='border border-black mt-[150px] m-auto shadow-[5px_10px_black] w-[95%] rounded-2xl p-[40px] '>
 
-            <img className='w-[1150px] mt-[-100px]' src="src/assets/Images Container (1).png" alt="" /> <br />
+            <img className='w-[1150px] mt-[-100px]' src={img19} alt="" /> <br />
 
             
             <div className='flex justify-between items-center ' >
@@ -145,7 +145,7 @@
 
           <div  data-aos="flip-up" className='border border-black mt-[150px] m-auto shadow-[5px_10px_black] w-[95%] rounded-2xl p-[40px] '>
 
-            <img className='w-[1150px] mt-[-100px]' src="src/assets/Images Container (2).png" alt="" /> <br />
+            <img className='w-[1150px] mt-[-100px]' src={img20} alt="" /> <br />
 
             
             <div className='flex justify-between items-center ' >
@@ -162,7 +162,7 @@
 
           <div data-aos="zoom-in" className='border border-black mt-[150px] m-auto shadow-[5px_10px_black] w-[95%] rounded-2xl p-[40px] '>
 
-            <img className='w-[1150px] mt-[-100px]' src="src/assets/Images Container (3).png" alt="" /> <br />
+            <img className='w-[1150px] mt-[-100px]' src={img21} alt="" /> <br />
 
             
             <div className='flex justify-between items-center ' >
@@ -179,7 +179,7 @@
 
           <div data-aos="zoom-in-up" className='border border-black mt-[150px] m-auto shadow-[5px_10px_black] w-[95%] rounded-2xl p-[40px] '>
 
-            <img className='w-[1150px] mt-[-100px]' src="src/assets/Images Container (4).png" alt="" /> <br />
+            <img className='w-[1150px] mt-[-100px]' src={img22} alt="" /> <br />
 
             
             <div className='flex justify-between items-center ' >
