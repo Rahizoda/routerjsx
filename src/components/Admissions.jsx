@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Admissions = ({img12}) => {
+const Admissions = ({img12 , img25 , img26}) => {
   return (
     <>
        <div data-aos="fade-up-right"  className="flex  w-[98%] m-auto border mt-[50px] justify-center items-center gap-[60px] p-[100px_30px] rounded-[20px] shadow-[5px_10px_black] ">
@@ -40,7 +40,7 @@ const Admissions = ({img12}) => {
           providing your child with an exceptional learning experience at our kindergarten school.</p> <br /><br /><br />
         
 
-        <img data-aos="fade-up-left"  className='w-[1000px] m-auto ' src="src/assets/Sub Container (5).png" alt="" />
+        <img data-aos="fade-up-left"  className='w-[1000px] m-auto ' src={img25} alt="" />
       </div>
 
       <div  className='text-center mt-[100px] '>
@@ -51,7 +51,7 @@ const Admissions = ({img12}) => {
         
 
         <img data-aos="fade-up"
-     data-aos-anchor-placement="center-center"  className='w-[1000px] m-auto ' src="src/assets/Sub Container (6).png" alt="" />
+     data-aos-anchor-placement="center-center"  className='w-[1000px] m-auto ' src={img26} alt="" />
       </div>
 
     </>

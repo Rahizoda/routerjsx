@@ -12,7 +12,7 @@ import "swiper/css/navigation";
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
-const StudentLife = ({ img12, img17 }) => {
+const StudentLife = ({ img12, img17 , img24}) => {
   const progressCircle = useRef(null);
   const progressContent = useRef(null);
   const onAutoplayTimeLeft = (s, time, progress) => {
@@ -71,12 +71,251 @@ const StudentLife = ({ img12, img17 }) => {
         <br />
         <br />
         <br />
-        <img
-          data-aos="fade-up-left"
-          className="w-[1000px] m-auto "
-          src="src/assets/Sub Container (5).png"
-          alt=""
-        />
+        
+
+        <div className="flex gap-[20px] justify-between items-center  overflow-x-auto whitespace-normal   w-[90%] m-auto h-[100vh]   ">
+
+          <div className="flex flex-col justify-around items-center h-[100%]">
+
+           <div className="min-w-[300px] h-[250px]  text-start border border-black rounded-2xl shadow-[5px_10px_black] p-[20px] ">
+          <img className=" mt-[-50px] w-[70px] " src={img24} alt="" />
+          <h2 className="text-[18px] font-bold ">Outstanding Early Childhood <br /> Education Awar</h2> <br />
+          <p className="text-[12px]">Presented by the National Association for the <br />
+            Education of Young Children (NAEYC) in <br />
+            recognition of Little Learners Academy's <br />
+            commitment to delivering exceptional early <br />
+            childhood education and fostering a nurturing <br />
+            learning environment.</p>
+           </div>
+
+            <div className="min-w-[300px] h-[250px]   text-start border border-black rounded-2xl shadow-[5px_10px_black] p-[20px] ">
+          <img className=" mt-[-50px] w-[70px] " src={img24} alt="" />
+          <h2 className="text-[18px] font-bold ">Outstanding Early Childhood <br /> Education Awar</h2> <br />
+          <p className="text-[12px]">Presented by the National Association for the <br />
+            Education of Young Children (NAEYC) in <br />
+            recognition of Little Learners Academy's <br />
+            commitment to delivering exceptional early <br />
+            childhood education and fostering a nurturing <br />
+            learning environment.</p>
+            </div>
+            
+          </div>
+          
+           <div className="flex flex-col justify-around items-center h-[100%]" >
+
+           <div className="min-w-[300px] h-[250px]  text-start border border-black rounded-2xl shadow-[5px_10px_black] p-[20px] ">
+          <img className=" mt-[-50px] w-[70px] " src={img24} alt="" />
+          <h2 className="text-[18px] font-bold ">Outstanding Early Childhood <br /> Education Awar</h2> <br />
+          <p className="text-[12px]">Presented by the National Association for the <br />
+            Education of Young Children (NAEYC) in <br />
+            recognition of Little Learners Academy's <br />
+            commitment to delivering exceptional early <br />
+            childhood education and fostering a nurturing <br />
+            learning environment.</p>
+           </div>
+
+            <div className="min-w-[300px] h-2500px] text-start border border-black rounded-2xl shadow-[5px_10px_black] p-[20px] ">
+          <img className=" mt-[-50px] w-[70px] " src={img24} alt="" />
+          <h2 className="text-[18px] font-bold ">Outstanding Early Childhood <br /> Education Awar</h2> <br />
+          <p className="text-[12px]">Presented by the National Association for the <br />
+            Education of Young Children (NAEYC) in <br />
+            recognition of Little Learners Academy's <br />
+            commitment to delivering exceptional early <br />
+            childhood education and fostering a nurturing <br />
+            learning environment.</p>
+            </div>
+            
+          </div>
+
+
+           <div className="flex flex-col justify-around items-center h-[100%]">
+
+           <div className="min-w-[300px] h-[250px]  text-start border border-black rounded-2xl shadow-[5px_10px_black] p-[20px] ">
+          <img className=" mt-[-50px] w-[70px] " src={img24} alt="" />
+          <h2 className="text-[18px] font-bold ">Outstanding Early Childhood <br /> Education Awar</h2> <br />
+          <p className="text-[12px]">Presented by the National Association for the <br />
+            Education of Young Children (NAEYC) in <br />
+            recognition of Little Learners Academy's <br />
+            commitment to delivering exceptional early <br />
+            childhood education and fostering a nurturing <br />
+            learning environment.</p>
+           </div>
+
+            <div className="min-w-[300px] h-2500px] text-start border border-black rounded-2xl shadow-[5px_10px_black] p-[20px] ">
+          <img className=" mt-[-50px] w-[70px] " src={img24} alt="" />
+          <h2 className="text-[18px] font-bold ">Outstanding Early Childhood <br /> Education Awar</h2> <br />
+          <p className="text-[12px]">Presented by the National Association for the <br />
+            Education of Young Children (NAEYC) in <br />
+            recognition of Little Learners Academy's <br />
+            commitment to delivering exceptional early <br />
+            childhood education and fostering a nurturing <br />
+            learning environment.</p>
+            </div>
+            
+          </div>
+
+
+           <div className="flex flex-col justify-around items-center h-[100%]">
+
+           <div className="min-w-[300px] h-[250px]  text-start border border-black rounded-2xl shadow-[5px_10px_black] p-[20px] ">
+          <img className=" mt-[-50px] w-[70px] " src={img24} alt="" />
+          <h2 className="text-[18px] font-bold ">Outstanding Early Childhood <br /> Education Awar</h2> <br />
+          <p className="text-[12px]">Presented by the National Association for the <br />
+            Education of Young Children (NAEYC) in <br />
+            recognition of Little Learners Academy's <br />
+            commitment to delivering exceptional early <br />
+            childhood education and fostering a nurturing <br />
+            learning environment.</p>
+           </div>
+
+            <div className="min-w-[300px] h-2500px] text-start border border-black rounded-2xl shadow-[5px_10px_black] p-[20px] ">
+          <img className=" mt-[-50px] w-[70px] " src={img24} alt="" />
+          <h2 className="text-[18px] font-bold ">Outstanding Early Childhood <br /> Education Awar</h2> <br />
+          <p className="text-[12px]">Presented by the National Association for the <br />
+            Education of Young Children (NAEYC) in <br />
+            recognition of Little Learners Academy's <br />
+            commitment to delivering exceptional early <br />
+            childhood education and fostering a nurturing <br />
+            learning environment.</p>
+            </div>
+            
+          </div>
+
+
+           <div className="flex flex-col justify-around items-center h-[100%]">
+
+           <div className="min-w-[300px] h-[250px]  text-start border border-black rounded-2xl shadow-[5px_10px_black] p-[20px] ">
+          <img className=" mt-[-50px] w-[70px] " src={img24} alt="" />
+          <h2 className="text-[18px] font-bold ">Outstanding Early Childhood <br /> Education Awar</h2> <br />
+          <p className="text-[12px]">Presented by the National Association for the <br />
+            Education of Young Children (NAEYC) in <br />
+            recognition of Little Learners Academy's <br />
+            commitment to delivering exceptional early <br />
+            childhood education and fostering a nurturing <br />
+            learning environment.</p>
+           </div>
+
+            <div className="min-w-[300px] h-2500px] text-start border border-black rounded-2xl shadow-[5px_10px_black] p-[20px] ">
+          <img className=" mt-[-50px] w-[70px] " src={img24} alt="" />
+          <h2 className="text-[18px] font-bold ">Outstanding Early Childhood <br /> Education Awar</h2> <br />
+          <p className="text-[12px]">Presented by the National Association for the <br />
+            Education of Young Children (NAEYC) in <br />
+            recognition of Little Learners Academy's <br />
+            commitment to delivering exceptional early <br />
+            childhood education and fostering a nurturing <br />
+            learning environment.</p>
+            </div>
+            
+          </div>
+
+           <div className="flex flex-col justify-around items-center h-[100%]">
+
+           <div className="min-w-[300px] h-[250px]  text-start border border-black rounded-2xl shadow-[5px_10px_black] p-[20px] ">
+          <img className=" mt-[-50px] w-[70px] " src={img24} alt="" />
+          <h2 className="text-[18px] font-bold ">Outstanding Early Childhood <br /> Education Awar</h2> <br />
+          <p className="text-[12px]">Presented by the National Association for the <br />
+            Education of Young Children (NAEYC) in <br />
+            recognition of Little Learners Academy's <br />
+            commitment to delivering exceptional early <br />
+            childhood education and fostering a nurturing <br />
+            learning environment.</p>
+           </div>
+
+            <div className="min-w-[300px] h-2500px] text-start border border-black rounded-2xl shadow-[5px_10px_black] p-[20px] ">
+          <img className=" mt-[-50px] w-[70px] " src={img24} alt="" />
+          <h2 className="text-[18px] font-bold ">Outstanding Early Childhood <br /> Education Awar</h2> <br />
+          <p className="text-[12px]">Presented by the National Association for the <br />
+            Education of Young Children (NAEYC) in <br />
+            recognition of Little Learners Academy's <br />
+            commitment to delivering exceptional early <br />
+            childhood education and fostering a nurturing <br />
+            learning environment.</p>
+            </div>
+            
+          </div>
+
+
+           <div className="flex flex-col justify-around items-center h-[100%]">
+
+           <div className="min-w-[300px] h-[250px]  text-start border border-black rounded-2xl shadow-[5px_10px_black] p-[20px] ">
+          <img className=" mt-[-50px] w-[70px] " src={img24} alt="" />
+          <h2 className="text-[18px] font-bold ">Outstanding Early Childhood <br /> Education Awar</h2> <br />
+          <p className="text-[12px]">Presented by the National Association for the <br />
+            Education of Young Children (NAEYC) in <br />
+            recognition of Little Learners Academy's <br />
+            commitment to delivering exceptional early <br />
+            childhood education and fostering a nurturing <br />
+            learning environment.</p>
+           </div>
+
+            <div className="min-w-[300px] h-2500px] text-start border border-black rounded-2xl shadow-[5px_10px_black] p-[20px] ">
+          <img className=" mt-[-50px] w-[70px] " src={img24} alt="" />
+          <h2 className="text-[18px] font-bold ">Outstanding Early Childhood <br /> Education Awar</h2> <br />
+          <p className="text-[12px]">Presented by the National Association for the <br />
+            Education of Young Children (NAEYC) in <br />
+            recognition of Little Learners Academy's <br />
+            commitment to delivering exceptional early <br />
+            childhood education and fostering a nurturing <br />
+            learning environment.</p>
+            </div>
+            
+          </div>
+
+           <div className="flex flex-col justify-around items-center h-[100%]">
+
+           <div className="min-w-[300px] h-[250px]  text-start border border-black rounded-2xl shadow-[5px_10px_black] p-[20px] ">
+          <img className=" mt-[-50px] w-[70px] " src={img24} alt="" />
+          <h2 className="text-[18px] font-bold ">Outstanding Early Childhood <br /> Education Awar</h2> <br />
+          <p className="text-[12px]">Presented by the National Association for the <br />
+            Education of Young Children (NAEYC) in <br />
+            recognition of Little Learners Academy's <br />
+            commitment to delivering exceptional early <br />
+            childhood education and fostering a nurturing <br />
+            learning environment.</p>
+           </div>
+
+            <div className="min-w-[300px] h-2500px] text-start border border-black rounded-2xl shadow-[5px_10px_black] p-[20px] ">
+          <img className=" mt-[-50px] w-[70px] " src={img24} alt="" />
+          <h2 className="text-[18px] font-bold ">Outstanding Early Childhood <br /> Education Awar</h2> <br />
+          <p className="text-[12px]">Presented by the National Association for the <br />
+            Education of Young Children (NAEYC) in <br />
+            recognition of Little Learners Academy's <br />
+            commitment to delivering exceptional early <br />
+            childhood education and fostering a nurturing <br />
+            learning environment.</p>
+            </div>
+            
+          </div>
+
+           <div className="flex flex-col justify-around items-center h-[100%]">
+
+           <div className="min-w-[300px] h-[250px]  text-start border border-black rounded-2xl shadow-[5px_10px_black] p-[20px] ">
+          <img className=" mt-[-50px] w-[70px] " src={img24} alt="" />
+          <h2 className="text-[18px] font-bold ">Outstanding Early Childhood <br /> Education Awar</h2> <br />
+          <p className="text-[12px]">Presented by the National Association for the <br />
+            Education of Young Children (NAEYC) in <br />
+            recognition of Little Learners Academy's <br />
+            commitment to delivering exceptional early <br />
+            childhood education and fostering a nurturing <br />
+            learning environment.</p>
+           </div>
+
+            <div className="min-w-[300px] h-2500px] text-start border border-black rounded-2xl shadow-[5px_10px_black] p-[20px] ">
+          <img className=" mt-[-50px] w-[70px] " src={img24} alt="" />
+          <h2 className="text-[18px] font-bold ">Outstanding Early Childhood <br /> Education Awar</h2> <br />
+          <p className="text-[12px]">Presented by the National Association for the <br />
+            Education of Young Children (NAEYC) in <br />
+            recognition of Little Learners Academy's <br />
+            commitment to delivering exceptional early <br />
+            childhood education and fostering a nurturing <br />
+            learning environment.</p>
+            </div>
+            
+          </div>
+
+         
+
+        </div>
       </div>
 
       <div className="text-center mt-[100px] ">
