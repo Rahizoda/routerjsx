@@ -276,7 +276,7 @@ const Home = ({ img2, img5, img6,img23 , img24 }) => {
         
         <div className='  flex justify-center items-center gap-[40px] flex-wrap '>
 
-          <div className='w-[550px] shadow-[5px_10px_black] border h-[450px] rounded-[20px] p-[30px] '>
+          <div  data-aos="flip-up" className='w-[550px] shadow-[5px_10px_black] border h-[450px] rounded-[20px] p-[30px] '>
             <h1 className='text-[40px]'>About Us </h1> <br />
             <img src={img6} alt="" /> <br></br><br />
             <p className='text-[15px]'>Discover our Mission, Values, and our unwavering commitment to  <br />
@@ -285,7 +285,7 @@ const Home = ({ img2, img5, img6,img23 , img24 }) => {
             <button className='w-[100%] border p-[10px_20px] rounded-[10px] shadow-[5px_10px_black] bg-[#FFDECC] '> Learn More  ➡️</button>
           </div>
 
-          <div className='w-[550px] shadow-[5px_10px_black] border h-[450px] rounded-[20px] p-[30px] '>
+          <div data-aos="flip-down" className='w-[550px] shadow-[5px_10px_black] border h-[450px] rounded-[20px] p-[30px] '>
             <h1 className='text-[40px]'>Academics</h1> <br />
             <img src={img6} alt="" /> <br></br><br />
             <p className='text-[15px]'>Delve into our comprehensive academic programs designed to <br />
@@ -295,7 +295,7 @@ const Home = ({ img2, img5, img6,img23 , img24 }) => {
             <button className='w-[100%] border p-[10px_20px] rounded-[10px] shadow-[5px_10px_black] bg-[#FFDECC] '> Learn More  ➡️</button>
           </div>
 
-          <div className='w-[550px] shadow-[5px_10px_black] border h-[450px] rounded-[20px] p-[30px] '>
+          <div data-aos="zoom-out-down" className='w-[550px] shadow-[5px_10px_black] border h-[450px] rounded-[20px] p-[30px] '>
             <h1 className='text-[40px]'>Student Life</h1> <br />
             <img src={img6} alt="" /> <br></br><br />
             <p className='text-[15px]'>Delve into our comprehensive academic programs designed to <br />
@@ -305,7 +305,8 @@ const Home = ({ img2, img5, img6,img23 , img24 }) => {
             <button className='w-[100%] border p-[10px_20px] rounded-[10px] shadow-[5px_10px_black] bg-[#FFDECC] '> Learn More  ➡️</button>
           </div>
 
-          <div className='w-[550px] shadow-[5px_10px_black] border h-[450px] rounded-[20px] p-[30px] '>
+          <div data-aos="fade-up"
+          data-aos-duration="3000" className='w-[550px] shadow-[5px_10px_black] border h-[450px] rounded-[20px] p-[30px] '>
             <h1 className='text-[40px]'>Admissions</h1> <br />
             <img src={img6} alt="" /> <br></br><br />
             <p className='text-[15px]'>Delve into our comprehensive academic programs designed to <br />
