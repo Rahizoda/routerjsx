@@ -83,7 +83,8 @@ const App = () => {
         },
         {
           path: "user/:id",
-          element: <User/>
+          element: <User img12={img12} />
+          
         },
 
       ],
