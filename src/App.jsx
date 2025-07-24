@@ -71,7 +71,8 @@ const App = () => {
         },
         {
           path: "academics",
-          element: <Academics img12={img12} img3={img3} img16={img16} img18={img18} img={img19} img20={img20} img21={img21} img22={img22} />,
+          element: <Academics img12={img12} img3={img3} img16={img16} img18={img18} img19={img19} img20={img20} img21={img21} img22={img22} />,
+          
         },
         {
           path: "admissions",
